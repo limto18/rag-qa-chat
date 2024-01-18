@@ -2,7 +2,7 @@
 
 Ce repo présente la construction d'un agent conversationnel capable de répondre aux questions sur une base de documents spécifique en utilisant la technique de la génération augmenté de récupération (Retrieval Augmented Generation -[RAG](https://www.elastic.co/fr/what-is/retrieval-augmented-generation) en anglais).
 L'agent a été conçu en deux versions :
-- Une première version classique répondant aux questions sans tenir compte des répones précédentes.
+- Une première version classique répondant aux questions sans tenir compte des réponses précédentes.
 - Une seconde version plus avancé qui répond au question en prénant en compte les réponses précédentes.
 
 ## Etapes de Réalisations

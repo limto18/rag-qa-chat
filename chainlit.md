@@ -1,6 +1,6 @@
 # Agent Conversationnel Spécialisé! 🚀🤖
 
-Nous avons construit un chatbot capable de répondre aux questions sur une base de documents spécifique en utilisant la technique RAG.
+Ce outils est un chatbot capable de répondre aux questions sur une base de documents spécifique en utilisant la technique RAG.
 
 ## Réalisation 🔗
 

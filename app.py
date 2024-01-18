@@ -21,15 +21,13 @@ async def on_chat_start():
 
     retriever = vectordb.as_retriever()
 
-    template = """Utilisez les éléments de contexte suivants pour répondre à la question finale.
-                Si vous ne connaissez pas la réponse, dites simplement que vous ne savez pas, n'essayez pas d'inventer une réponse.
-                Dites toujours "Avez vous d'autre question?" à la fin de la réponse.
-
+    template = """Répondez à la question en vous basant uniquement sur le contexte suivant :
+    
                     {context}
 
                 Question : {question}
 
-                    Réponse utile :"""
+                """
     
     prompt = ChatPromptTemplate.from_template(template)
 

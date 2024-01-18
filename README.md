@@ -16,7 +16,12 @@ Ce repo présente la construction d'un agent conversationnel capable de répondr
 - Recuperation des articles sous forme de documents
 - Découper ces documents en morceaux et créer des embeddings.
 - Stocker ces embeddings sur Chroma
+- Creer une chaine de traitement avec un model llm et les vecteurs embeddings.
 - Répondre aux questions des utilisateurs et montrer les sources utilisées pour répondre.
+
+### Résultats
+
+![Screenshot](./chat_screencapture.png)
 
 ## Comment faire fonctionner le code
 

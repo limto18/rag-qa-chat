@@ -25,20 +25,20 @@ Ce repo présente la construction d'un agent conversationnel capable de répondr
 
 ## Comment faire fonctionner le code
 
-1. Installer les dépendances de Python :
+1. Installer les dépendances Python :
 ```shell
 pip install -r requirements.txt
 ```
 
-2. Renomer le fichier  `.env.example` en `.env` et inserer votre clé d'api openai:
+1. Renomer le fichier  `.env.example` en `.env` et inserer votre clé d'api openai:
 ```.env
 OPENAI_API_KEY=VOTRE_OPENAI_API_KEY
 ```
-3. Executer le script pour scraper et stoker les données:
+1. Executer le script pour scraper et stoker les données:
 ```shell
 python scrape_data.py
 ```
-4. Lancez la démo et commencer à interagir avec l'agent. Cela ouvrira une fenêtre de navigateur avec l'interface Chainlit.
+1. Lancez la démo et commencer à interagir avec l'agent. Cela ouvrira une fenêtre de navigateur avec l'interface Chainlit.
 
 ```shell
 chainlit run app.py 

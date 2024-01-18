@@ -7,10 +7,6 @@ from langchain.vectorstores.chroma import Chroma
 from langchain.indexes import SQLRecordManager, index
 from langchain_community.document_loaders import WebBaseLoader
 
-
-chunk_size = 1024
-chunk_overlap = 50
-
 embeddings_model = OpenAIEmbeddings()
 
 STORAGE_PATH = 'data/chroma/'
@@ -39,7 +35,7 @@ def process_docs(article_urls: List, persist_directory, embeddings_model, chunk_
     
     print("Successfully loaded to document")
 
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap, separators=["\n\n","\n"])
     splits = text_splitter.split_documents(docs)
 
     # Create the storage path if it doesn't exist

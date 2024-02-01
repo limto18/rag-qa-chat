@@ -1,4 +1,4 @@
-# Création D'un Agent Conversationnel Sécialisé
+# Création D'un Agent Conversationnel Spécialisé
 
 Ce repo présente la construction d'un agent conversationnel capable de répondre aux questions sur une base de documents spécifique en utilisant la technique de la génération augmenté de récupération (Retrieval Augmented Generation -[RAG](https://www.elastic.co/fr/what-is/retrieval-augmented-generation) en anglais).
 L'agent a été conçu en deux versions :
